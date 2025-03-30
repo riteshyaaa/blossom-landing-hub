@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="absolute inset-0 -z-10 hero-gradient"></div>
       <div className="absolute inset-0 -z-10 opacity-20" 
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1508610048659-a06b669e3321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZsb3dlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1516834474-48c0abc2a902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}></div>
@@ -47,7 +47,7 @@ const Hero = () => {
         <div className="flex justify-center mt-8 md:mt-16 overflow-hidden">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 animate-fade-up" style={{animationDelay: "0.4s"}}>
             <img 
-              src="https://images.unsplash.com/photo-1599593612050-ffb4f60155ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" 
+              src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" 
               alt="Beautiful flower arrangement" 
               className="w-full h-52 object-cover rounded-lg shadow-md"
             />
@@ -57,7 +57,7 @@ const Hero = () => {
               className="w-full h-52 object-cover rounded-lg shadow-md hidden md:block"
             />
             <img 
-              src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" 
+              src="https://images.unsplash.com/photo-1566960041896-9491a52cca6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" 
               alt="Flower bouquet" 
               className="w-full h-52 object-cover rounded-lg shadow-md"
             />
