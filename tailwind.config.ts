@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,31 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Flower-specific colors
+				blossom: {
+					50: '#FFF5F7',
+					100: '#FFEAEE',
+					200: '#FFCBD5',
+					300: '#FFACBC',
+					400: '#FF8DA3',
+					500: '#FF6E8A',
+					600: '#FF4F71',
+					700: '#E63E62',
+					800: '#CC2E52',
+					900: '#B21E43',
+				},
+				leaf: {
+					50: '#F2FAF5',
+					100: '#E6F5EB',
+					200: '#C2E6CD',
+					300: '#9ED7AF',
+					400: '#7AC891',
+					500: '#56B973',
+					600: '#41AA61',
+					700: '#308A4F',
+					800: '#1F6B3D',
+					900: '#0F4C2B',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -68,27 +94,33 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			fontFamily: {
+				serif: ['Playfair Display', 'serif'],
+				sans: ['Inter', 'sans-serif'],
+			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' }
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' }
+				},
+				'fade-up': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'fade-in': {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-up': 'fade-up 0.5s ease-out',
+				'fade-in': 'fade-in 0.7s ease-out'
 			}
 		}
 	},
