@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="absolute inset-0 -z-10 hero-gradient"></div>
       <div className="absolute inset-0 -z-10 opacity-20" 
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1505129013025-ecf8f0168373?q=80&w=2069&auto=format&fit=crop')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1508610048659-a06b669e3321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZsb3dlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}></div>
@@ -47,7 +47,7 @@ const Hero = () => {
         <div className="flex justify-center mt-8 md:mt-16 overflow-hidden">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 animate-fade-up" style={{animationDelay: "0.4s"}}>
             <img 
-              src="https://images.unsplash.com/photo-1599593612050-ffb4f60155ec?q=80&w=687&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1599593612050-ffb4f60155ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" 
               alt="Beautiful flower arrangement" 
               className="w-full h-52 object-cover rounded-lg shadow-md"
             />
@@ -57,7 +57,7 @@ const Hero = () => {
               className="w-full h-52 object-cover rounded-lg shadow-md hidden md:block"
             />
             <img 
-              src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?q=80&w=1074&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" 
               alt="Flower bouquet" 
               className="w-full h-52 object-cover rounded-lg shadow-md"
             />
