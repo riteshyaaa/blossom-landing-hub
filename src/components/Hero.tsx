@@ -57,7 +57,7 @@ const Hero = () => {
               className="w-full h-52 object-cover rounded-lg shadow-md hidden md:block"
             />
             <img 
-              src="https://images.unsplash.com/photo-1566960041896-9491a52cca6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" 
+              src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" 
               alt="Flower bouquet" 
               className="w-full h-52 object-cover rounded-lg shadow-md"
             />
